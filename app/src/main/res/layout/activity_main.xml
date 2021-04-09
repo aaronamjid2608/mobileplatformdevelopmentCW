@@ -1,0 +1,23 @@
+<!--  Aaron Amjid S1626987 -->
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<TextView android:id="@+id/acknowledgement" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="Contains British Geological Survey materials ©NERC 2019"/>
+<TextView android:id="@+id/matric" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="Matriculation Number: S1626987"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mapbutton"
+        android:text="Map View" />
+
+    <ListView
+        android:id="@+id/quakelist"
+        android:layout_width="fill_parent"
+        android:layout_height="340dp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/frame_layout"/>
+
+</LinearLayout>

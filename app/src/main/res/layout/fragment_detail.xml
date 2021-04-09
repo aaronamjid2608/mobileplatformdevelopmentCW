@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Aaron Amjid S1626987 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFragment">
+    <TextView android:id="@+id/matric" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Matriculation Number: S1626987"/>
+    <TextView
+        android:id="@+id/earthquaketitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        android:textColor="@color/black"
+        android:layout_below="@+id/matric" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:layout_below="@+id/earthquaketitle"
+        android:text="Description:"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/link"
+        android:layout_below="@+id/description"
+        android:text="Link:"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/category"
+        android:layout_below="@+id/link"
+        android:text="Category:"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coordinates"
+        android:layout_below="@+id/category"
+        android:text="Co-ordinates:"
+        android:textColor="@color/black" />
+</RelativeLayout>
